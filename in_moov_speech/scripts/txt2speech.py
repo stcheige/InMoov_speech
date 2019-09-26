@@ -13,7 +13,7 @@ import httplib2
 try:
     from urllib.parse import urlencode, quote # For URL creation
 except ImportError:                     #make code compatible to Python 2 & 3 
-    from urlib import urlencode, quote
+    from urllib import urlencode, quote
 
 import pygame # To play wave files
 import math # For ceiling
@@ -27,7 +27,7 @@ def callback(input_text):
      # Build the query
      query_hash = {"INPUT_TEXT":input_text,
     "INPUT_TYPE":"TEXT", # Input text
-    "LOCALE":"en_US",
+    "LOCALE":"en_US", #language
     "VOICE":"cmu-bdl-hsmm", # inMoov male voice
     "OUTPUT_TYPE":"AUDIO",
     "AUDIO":"WAVE", # Audio informations (need both)
