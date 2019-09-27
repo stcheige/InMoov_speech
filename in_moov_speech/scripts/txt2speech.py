@@ -1,7 +1,10 @@
 #!/usr/bin/env python
+"""
+Based on the example file from the marytts GitHub
+https://github.com/marytts/marytts-txt2wav/blob/python/txt2wav.py
+modified by Waldemar Drozd 
+"""
 
-#Based on the example file from the marytts GitHub
-#modified by Waldemar Drozd 
 # -*- coding: utf-8 -*-
 
 #ros libs
