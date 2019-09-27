@@ -22,13 +22,13 @@ def speech2txt():
     mic.CHUNK = 1024  #adjust chunk size
     
     while not rospy.is_shutdown():
-        print("Service is running") #print into the terminal
+        print("Listening") #print into the terminal
         with mic as source: #using the microphone to record audio
             rec.adjust_for_ambient_noise(source)  #adjust mic to ambient noice
             audio = rec.listen(source) #record audio 
             try:
                 text = rec.recognize_google(audio) #send audio and receive transcribed audio as text
-                print("Listening") 
+		print("Recognizing")
                 rospy.loginfo(text)
                 pub.publish(text) #publish received text 
                 
@@ -44,4 +44,4 @@ if __name__ == '__main__':
     try:
         speech2txt()
     except rospy.ROSInterruptException:
-        pass 
+        pass
