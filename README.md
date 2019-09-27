@@ -1,6 +1,9 @@
-# Projekt 1 - Mentor: Prof. Dr. Stephan Neser
+# Project 1 - InMoov
+
 
 This project was carried out within the summer semester of 2019. 
+
+Mentor: Prof. Dr. Stephan Neser
 
 ______________________
 
