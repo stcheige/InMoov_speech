@@ -5,9 +5,8 @@
   <description>The in_moov_speech package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
-  <!-- Example:  -->
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="waldemar@todo.todo">waldemar</maintainer>
+  <maintainer email="waldemar.drozd@stud.h-da.de">Waldemar Drozd</maintainer>
+  <maintainer email="christian.eigenseer@stud.h-da.de">Christian Eigenseer</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -25,7 +24,8 @@
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
-  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+  <-- <author email="waldemar.drozd@stud.h-da.de">Waldemar Drozd</author> -->
+  <-- <author email="christian.eigenseer@stud.h-da.de">Christian Eigenseer</author> -->
 
 
   <!-- The *depend tags are used to specify dependencies -->
