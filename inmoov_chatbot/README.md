@@ -5,17 +5,15 @@ from its MyrobotLab-Environment to a new ROS-Environment
 using the chatbot engine "Program-Y".
 
 ## Status
-ROSnode client seems functional und configurable.
-The next step is to implement some kind of inMoov-gesture node.
+The ROSnode client is functional and fully configurable, publishes answers and gestures under different topics;
+but the bot personality "Henry" still has grammar-errors.
 
 ## Roadmap:
 ### High Priority
-* Write OOB extension for inMoov-gestures
-* Fix aiml grammar errors and sets
-### Normal Priority
-* Create ROS-Package
+* Turn module into ROS-package - see [Python module dependencies](http://docs.ros.org/jade/api/catkin/html/howto/format1/python_module_dependencies.html)
+* Fix AIML grammar errors and sets
 ### Low Priority
-* Write installation-instructions
+* Create instructions on how to add custom modules to the bot
 
 ## Sources:
 * [Program-Y](https://github.com/keiffster/program-y)
