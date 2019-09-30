@@ -60,7 +60,7 @@ def callback(input_text):
 
 def txt2speech():
     rospy.init_node('txt2speech', anonymous=True) #name of subscriber node
-    rospy.Subscriber("speaker", String, callback) #name of topic
+    rospy.Subscriber("chatOUT", String, callback) #name of topic
     rospy.spin() #keeps python from exiting until node is stopped
     
 if __name__ == '__main__':
