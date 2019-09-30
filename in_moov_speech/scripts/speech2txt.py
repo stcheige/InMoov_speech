@@ -14,7 +14,7 @@ import speech_recognition as sr #lib for speech recognition
 
 
 def speech2txt():
-    pub = rospy.Publisher('recognizer', String, queue_size=10) #name of topic
+    pub = rospy.Publisher('chatIN', String, queue_size=10) #name of topic
     rospy.init_node('speech2txt', anonymous=True) #name of publisher node
     rate = rospy.Rate(10) # 10hz
     rec = sr.Recognizer() 
