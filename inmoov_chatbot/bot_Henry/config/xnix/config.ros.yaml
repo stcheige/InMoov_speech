@@ -5,11 +5,11 @@ rosnode:
   nodename: chatBotHenry
 
   # ROS-Publisher
-  rostopic_chat: chatBotOut
-  rostopic_gestures: gestureOut
+  rostopic_chat: chatOUT
+  rostopic_gestures: gestOUT
 
   # ROS-Subscriber
-  subscription: chatBotIn
+  subscription: chatIN
   rosrate:  10
   queue_size: 10
 
